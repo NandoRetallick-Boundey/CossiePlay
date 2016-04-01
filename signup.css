@@ -27,13 +27,11 @@ body {
 
 p {
 	width: 900px;
-	padding-left: 150px;
+	margin-left: 150px;
 }	
 
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	width: 100px;
 	position: fixed;
 	height: 100%;
@@ -61,5 +59,16 @@ li a:hover:not(.active) {
 }
 
 ol {
-	padding-left: 150px;
+	margin-left: 150px;
+}
+
+body div ul {
+	width: 1000px;
+	position: relative;
+ 	font-style: normal;
+}
+
+div ul li {
+	font-weight: bold;
+	margin-left:150px;
 }

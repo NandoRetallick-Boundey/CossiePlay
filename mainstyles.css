@@ -19,13 +19,13 @@ a img {
 }
 h2 {
 	position: relative;
-	width: 900px;
+	width: 300px;
 	overflow: auto;
 	margin-left: 150px;
 }
 h3 {
 	position: relative;
-	width: 900px;
+	width: 300px;
 	overflow: auto;
 	margin-left: 150px;
 }
@@ -35,11 +35,11 @@ body {
 }
 p {
 	position: relative;
-	width: 900px;
+	width:66%;
 	overflow: auto;
 	margin-left: 150px;
-	border:groove;
-	border-color:#2255aa;
+	border:outset;
+	border-color:#8DAFE8;
 }
 ul {
 	list-style-type: none;
@@ -94,15 +94,14 @@ footer {
 	font-size: small;
 }
 body div ul {
-	width: 1000px;
+	width: 66%;
 	position: relative;
- 	font-style: normal;
+ 	font-weight: bold;
+	margin-left: 150px;
 }
 li div {
-	width: 300px;
+	width: 66%;
 	font-weight: normal;
 	position: static;
-}
-div ul li {
-	font-weight: bold;
+	margin-left: 150px;
 }
